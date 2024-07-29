@@ -178,6 +178,7 @@ if ($CFG->dataroot === false) {
         header($_SERVER['SERVER_PROTOCOL'] . ' 500 Internal Server Error ');
     }
     echo('Fatal error: $CFG->dataroot is not configured properly, directory does not exist or is not accessible! Exiting.'."\n");
+    echo($CFG->dataroot)
     exit(1);
 } else if (!is_writable($CFG->dataroot)) {
     if (isset($_SERVER['REMOTE_ADDR'])) {
