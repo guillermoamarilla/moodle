@@ -41,7 +41,7 @@ $CFG = new stdClass();
 $CFG->dbtype    = 'mariadb';      // 'pgsql', 'mariadb', 'mysqli', 'auroramysql', 'sqlsrv' or 'oci'
 $CFG->dblibrary = 'native';     // 'native' only at the moment
 $CFG->dbhost    = 'localhost';  // eg 'localhost' or 'db.isp.com' or IP
-$CFG->dbname    = 'moodle';     // database name, eg moodle
+$CFG->dbname    = 'c2650237_moodle';     // database name, eg moodle
 $CFG->dbuser    = 'c2650237_moodle';   // your database username
 $CFG->dbpass    = 'VEgikaba22';   // your database password
 $CFG->prefix    = 'mdl_';       // prefix to use for all table names
@@ -162,7 +162,7 @@ $CFG->dboptions = array(
 // If you need both intranet and Internet access please read
 // http://docs.moodle.org/en/masquerading
 
-$CFG->wwwroot   = 'http://example.com/moodle';
+$CFG->wwwroot   = 'http://marcelawueber.com.ar/moodle';
 
 
 //=========================================================================
@@ -178,7 +178,7 @@ $CFG->wwwroot   = 'http://example.com/moodle';
 //
 // - On Windows systems you might specify something like 'c:\moodledata'
 
-$CFG->dataroot  = '/home/example/moodledata';
+$CFG->dataroot  = '../moodledata';
 
 
 //=========================================================================
