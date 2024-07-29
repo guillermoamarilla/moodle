@@ -178,7 +178,7 @@ $CFG->wwwroot   = 'http://marcelawueber.com.ar/moodle';
 //
 // - On Windows systems you might specify something like 'c:\moodledata'
 
-$CFG->dataroot  = '/public_html/moodledata';
+$CFG->dataroot  = '../../moodledata';
 
 
 //=========================================================================
