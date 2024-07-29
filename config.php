@@ -791,7 +791,7 @@ $CFG->admin = 'admin';
 // @error_reporting(E_ALL | E_STRICT); // NOT FOR PRODUCTION SERVERS!
 @ini_set('display_errors', '1');    // NOT FOR PRODUCTION SERVERS!
 // $CFG->debug = (E_ALL | E_STRICT);   // === DEBUG_DEVELOPER - NOT FOR PRODUCTION SERVERS!
-// $CFG->debugdisplay = 1;             // NOT FOR PRODUCTION SERVERS!
+$CFG->debugdisplay = 1;             // NOT FOR PRODUCTION SERVERS!
 //
 // Display exceptions using the 'pretty' Whoops! utility.
 // This is only used when the following conditions are met:
